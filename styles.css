@@ -30,6 +30,7 @@ nav ul li{
     margin-right: 20px;
 }
 a{
+    margin-top: 15px;
     text-decoration: none;
     color: #555;
     font-size: 18px;
@@ -39,7 +40,7 @@ p{
 }
 nav ul li a:hover
 {
-    border-bottom: 1px solid #ff523b;
+    border-bottom: 1px solid #563434;
 }
 .container{
     max-width: 1300px;
@@ -119,9 +120,10 @@ margin-top: 50px;
     color: #555;
 }
 /* this will create a small dash line */
+/* cant you just do a dash with a border 1px */
 .title::after{
     content: '';
-    background-color: #ff523b ;
+    background-color:  #563434;
     width: 80px;
     height: 5px;
     border-radius: 5px;
@@ -138,9 +140,10 @@ h4{
     font-size: 14px;
 
 }
-.rating .fa{
-    color: #ff523b;
+.rating .fas .far{
+    color:  #563434;
 }
+
 .col-4:hover{
     transform: translateY(-5px);
 }
@@ -181,7 +184,7 @@ small{
 }
 .fa.fa-quote-left{
     font-size: 34px;
-    color: #ff523b;
+    color:  #563434;
 }
 .col-3 p{
     font-size: 12px;
