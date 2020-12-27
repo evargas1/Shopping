@@ -226,12 +226,12 @@ small{
 .col-5{
     width: 160px;
 }
-.col-5 img {
+.col-5 .fab .fas{
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
 }
-.col-5 img:hover{
+.col-5 .fab:hover{
     filter: grayscale(0);
 }
 
