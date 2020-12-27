@@ -149,6 +149,27 @@ h4{
 }
 /*   --------- offer ----------- */
 
+ .under {
+     display: inline-block;
+    position: absolute;
+    left: 3%;
+    color:  #563434;
+    font-size: 100px;
+    font-weight: 400;
+    opacity: 0.7;
+    
+  }
+.under2{
+    display: inline-block;
+    position: absolute;
+    right: 2%;
+    color: #fff;
+    font-size: 130px;
+    font-weight: 300;
+    opacity: 0.5;
+    
+}
+
 .offer{
     background: radial-gradient(rgb(196, 169, 169), #e4dada);
     margin-top: 80px;
