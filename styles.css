@@ -261,6 +261,9 @@ small{
     /* this will ensure it uses all the avaible space left over */
     text-align: center;
 }
+.paragraph{
+    margin-top: 20px;
+}
 .footer-col-2 img{
     width: 180px;
     margin-bottom: 20px;
