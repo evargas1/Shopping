@@ -358,7 +358,7 @@ ul{
     margin: 100px auto 50px;
 }
 select{
-    border: 1px solid #ff523b;
+    border: 1px solid #563434;
     padding: 5px;
 }
 select:focus{
@@ -370,7 +370,7 @@ select:focus{
 }
 .page-btn span{
     display: inline-block;
-    border: 1px solid #ff523b;
+    border: 1px solid #563434;
     margin-left: 40px;
     height: 40px;
     text-align: center;
@@ -381,6 +381,10 @@ select:focus{
     background: chartreuse;
     color: #fff;
 }
+
+/* ------------- The product details page will start here -------------- */
+
+
 .single-product {
     margin-top: 80px;
 }
@@ -408,13 +412,13 @@ select:focus{
     padding-left: 10px;
     font-size: 20px;
     margin-right: 10px;
-    border: 1px solid #ff523b;
+    border: 1px solid #563434;
 }
 input:focus{
     outline: none;
 }
 .single-product .fa{
-    color: #ff523b;
+    color: #563434;
     margin-left: 10px;
 }
 .small-img-row{
