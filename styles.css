@@ -429,6 +429,6 @@ input:focus{
     flex-basis: 24%;
     cursor: pointer;
 }
-.small-img:focus{
-    border: 1px solid #563434;
+.small-img:hover{
+    border-top: 1px solid #563434;
 }
