@@ -40,21 +40,21 @@
 <div class="small-container single-product">
     <div class="row">
         <div class="col-2">
-            <img src="./images/cool-plaid-jacket.jpg" alt="">
+            <img src="./images/cool-short-blazer.jpg" alt="" id="ProductImg">
             <!-- main image of clothing -->
 
             <div class="small-img-row">
-                <div class="small-img-col">
-                    <img src="......" alt="">
+                <div class="small-img-col" >
+                    <img src="./images/blazer-1.jpg" alt="" class="small-img">
                 </div>
                 <div class="small-img-col">
-                    <img src="......" alt="">
+                    <img src="./images/blazer-2.jpg" alt="" class="small-img">
                 </div>
                 <div class="small-img-col">
-                    <img src="......" alt="">
+                    <img src="./images/blazer-3.jpg" alt="" class="small-img">
                 </div>
                 <div class="small-img-col">
-                    <img src="......" alt="">
+                    <img src="./images/blazer-4.jpg" alt="" class="small-img">
                 </div>
             </div>
 
@@ -84,6 +84,15 @@
     </div>
 </div>
 
+
+<!---------- title------------->
+
+<div class="small-container">
+    <div class="row row-2">
+        <h2>Related Products</h2>
+        <p>View More</p>
+    </div>
+</div>
 
 
 <!-- --------- Featured Products ------ -->
@@ -240,6 +249,39 @@ function menutoggle(){
         MenuItems.style.maxHeight = "0px"
     }
 }
+
+</script>
+
+
+
+
+<!--  js for products gallery to function through slides -->
+
+<script>
+
+    var ProductImg = document.getElementById("ProductImg");
+    var SmallImg = document.getElementById("small-img");
+
+    SmallImg[0].onclick = function()
+    {
+        ProductImg.src = SmallImg[0].src;
+    }
+
+    SmallImg[1].onclick = function()
+    {
+        ProductImg.src = SmallImg[1].src;
+    }
+
+    SmallImg[2].onclick = function()
+    {
+        ProductImg.src = SmallImg[2].src;
+    }
+
+    SmallImg[3].onclick = function()
+    {
+        ProductImg.src = SmallImg[3].src;
+    }
+
 
 </script>
 
