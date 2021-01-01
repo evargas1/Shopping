@@ -359,10 +359,21 @@ ul{
 }
 select{
     border: 1px solid #563434;
-    padding: 5px;
+    padding: 25px;
+    width: 140px;
+    height: 30px;
+    color: #fff;
+    background: #563434;
+    font-size: 13px;
+    font-weight: 300;
+
 }
 select:focus{
     outline: none;
+    
+}
+select option:hover{
+    background: #563434;
 }
 
 .page-btn{
