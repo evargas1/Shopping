@@ -368,6 +368,11 @@ ul{
     /* .under2 .under{
         display: none;
     } */
+    
+
+}
+/* media querry for less than 984 screen size */
+@media only screen and (max-width: 984px){
     #under{
         display: none;
         overflow: hidden;
@@ -376,7 +381,6 @@ ul{
         display: none;
         overflow: hidden;
     }
-
 }
 
 
