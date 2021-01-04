@@ -539,10 +539,10 @@ th:last-child{
 
 /* -------------account page------------- */
 
-.account-page{
+/* .account-page{
     padding: 50px 0;
-    background: radial-gradient(rgb(240, 236, 236), #807e7e);
-}
+    background: radial-gradient(rgb(196, 169, 169), #e4dada);
+} */
 .form-container{
     background: #fff;
     width: 300px;
@@ -605,4 +605,53 @@ form a{
     height: 3px;
     margin-top: 8px;
     transform: translateX(100px);
+}
+
+/* ------This will begin the contact us page and show consist of two sections ------------ */
+
+.header-contact-city{
+    background-image: url('./images/banner-chicago.jpg');
+    height: 80vh;
+}
+
+.text-above{
+  background-color: rgb(44, 30, 30); /* Fallback color */
+  background-color: rgba(34, 27, 27, 0.8); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #563434;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+.text-above h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    
+    font-weight: 400;
+}
+.text-above h5{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+.center .p{
+    text-align: center !important;
+    font-size: 15px;
+    
+}
+.left i{
+    padding-left: 50px;
+}
+.center{
+    position: relative;
+   width: 100%;
+   align-items: center;
+   padding-left: 50px;
 }

@@ -9,72 +9,72 @@
 </head>
 <body>
     
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <i class="fa fa-wpexplorer fa-5x" aria-hidden="true" style="color: #563434;"></i>
+    <div class="header" style="background: radial-gradient(rgb(240, 236, 236), #807e7e);">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <i class="fa fa-wpexplorer fa-5x" aria-hidden="true" style="color: #563434;"></i>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./products.html">Products</a></li>
+                        <li><a href="./index.html">About</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="./cart.html"><i class="fas fa-shopping-cart fa-2x" style="color: black;"></i></a>
+                <!-- cart image/ icon-->
+                <!-- <img src="....." alt="" class="menu-icon" onclick="menutoggle()"> -->
+                <div class="menu-icon">
+                <i class="fas fa-bars fa-2x" onclick="menutoggle()" class="menu-icon"></i>
             </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./products.html">Products</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                    <li><a href="./account.html">Account</a></li>
-                </ul>
-            </nav>
-            <a href="./cart.html"><i class="fas fa-shopping-cart fa-2x" style="color: black;"></i></a>
+                <!-- the image above will be to ensure this webpage is responsive so a small menu bar -->
+            </div>
+            <div class="account-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="./images/grey.png" alt="">
+                        </div>
+                        <div class="col-2">
+                            <div class="form-container">
+                                <div class="form-btn">
+                                    <span onclick="login()">Login</span>
+                                    <span onclick="register()">Register </span>
+                                    <hr id="Indicator">
             
-            <!-- cart image/ icon-->
-            <!-- <img src="....." alt="" class="menu-icon" onclick="menutoggle()"> -->
-            <div class="menu-icon">
-            <i class="fas fa-bars fa-2x" onclick="menutoggle()" class="menu-icon"></i>
-        </div>
-            <!-- the image above will be to ensure this webpage is responsive so a small menu bar -->
-        </div>
-        
-    </div>
-
-
-<!-------------- account page  ----------------->
-
-<div class="account-page">
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                <img src="./images/grey.png" alt="">
-            </div>
-            <div class="col-2">
-                <div class="form-container">
-                    <div class="form-btn">
-                        <span onclick="login()">Login</span>
-                        <span onclick="register()">Register </span>
-                        <hr id="Indicator">
-
+                                </div>
+            
+                                <form id="LoginForm">
+                                    <input type="text" placeholder="Username">
+                                    
+                                    <input type="password" placeholder="Password">
+                                    <button type="submit" class="btn">Login</button>
+                                    <a href="">Forget Password</a>
+                                </form>
+            
+                                <form id="RegForm">
+                                    <input type="text" placeholder="Username">
+                                    <input type="email" placeholder="Email">
+                                    
+                                    <input type="password" placeholder="Password">
+                                    <button type="submit" class="btn">Register</button>
+                                </form>
+            
+            
+                            </div>
+                        </div>
                     </div>
-
-                    <form id="LoginForm">
-                        <input type="text" placeholder="Username">
-                        
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Login</button>
-                        <a href="">Forget Password</a>
-                    </form>
-
-                    <form id="RegForm">
-                        <input type="text" placeholder="Username">
-                        <input type="email" placeholder="Email">
-                        
-                        <input type="password" placeholder="Password">
-                        <button type="submit" class="btn">Register</button>
-                    </form>
-
-
                 </div>
             </div>
         </div>
     </div>
-</div>
+    
+
+
+<!-------------- account page  ----------------->
 
 <!-- ---------footer -------------->
 
