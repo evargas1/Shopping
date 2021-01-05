@@ -655,3 +655,10 @@ form a{
    align-items: center;
    padding-left: 50px;
 }
+
+/* ------------- About us -------------- */
+
+.header2{
+    background: radial-gradient(rgb(247, 184, 49), #f7d578);
+
+}
