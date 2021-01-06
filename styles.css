@@ -725,11 +725,9 @@ height: 100vh;
 }
 .read-our{
     display: inline-block;
-    height: 40vh;
+   
 }
-.col-6{
-    width: 50%;
-}
+
 .left-s{
     float: right;
 }
