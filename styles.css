@@ -711,3 +711,25 @@ height: 100vh;
 }
 
 /* ---------More about us section ------------ */
+.last-c{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+}
+.title h5{
+    text-transform: uppercase;
+}
+.row h4{
+    text-transform: uppercase;
+    
+}
+.read-our{
+    display: inline-block;
+    height: 40vh;
+}
+.col-6{
+    width: 50%;
+}
+.left-s{
+    float: right;
+}
