@@ -725,9 +725,22 @@ height: 100vh;
 }
 .read-our{
     display: inline-block;
+    margin: 30px;
+    
    
 }
 
 .left-s{
     float: right;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 5px 20px 20px 5px rgba(2, 2, 2, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    background: radial-gradient(rgb(226, 224, 231), #d0ccd8);
+}
+.sides{
+    padding: 35px;
+    text-align: center;
+    padding: 40px 20px;
 }
