@@ -660,5 +660,54 @@ form a{
 
 .header2{
     background: radial-gradient(rgb(247, 184, 49), #f7d578);
-
+height: 100vh;
 }
+
+.our-story{
+    width: 40%;
+    height: 100%;
+    float: right;
+    position: sticky;
+    top: 75%;
+}
+.our-story h2{
+    font-size: 40px;
+    margin-bottom: 40px ;
+}
+.about-us{
+    width: 70%;
+    text-align: center;
+    position: absolute;
+    top: 4%;
+}
+.about-us h1{
+    
+    font-weight: 400;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 5px 7px 0 rgba(0 0 0 / 0.25);
+}
+.name{
+    width: 20%;
+    position: absolute;
+    top: 83%;
+}
+.qoutes{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    float: right;
+    
+    
+}
+.qoutes h3{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: #563434;
+    border-left: 2px solid black;
+    padding-left: 15px;
+    float: right;
+}
+
+/* ---------More about us section ------------ */
