@@ -404,6 +404,12 @@ ul{
     .about-us{
         display: none;
     }
+    .our-story{
+        display: none;
+    }
+    .qoutes h3{
+        font-size: 12px;
+    }
 }
 
 
