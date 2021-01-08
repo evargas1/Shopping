@@ -380,13 +380,9 @@ ul{
     .image-for-banner img{
         width: fit-content;
         position: relative;
-        display: none;
+       
     }
-    .qoutes{
-        position: relative;
-        bottom: 2%;
-        
-    }
+    
 
     
 
@@ -409,6 +405,9 @@ ul{
     }
     .qoutes h3{
         font-size: 12px;
+    }
+    .name{
+        display: none;
     }
 }
 
@@ -690,11 +689,9 @@ height: 100vh;
 }
 
 .our-story{
-    width: 40%;
-    height: 100%;
+    
     float: right;
-    position: sticky;
-    top: 75%;
+   margin-top: 190px;
 }
 .our-story h2{
     font-size: 40px;
@@ -717,13 +714,13 @@ height: 100vh;
 .name{
     width: 20%;
     position: absolute;
-    top: 83%;
+   
 }
 .qoutes{
-    width: 50%;
+    /* width: 50%;
     position: absolute;
     top: 30%;
-    float: right;
+    float: right; */
     
     
 }
