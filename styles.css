@@ -371,6 +371,23 @@ ul{
     .cart-info p{
         display: none;
     }
+    .our-story{
+        display: none;
+    }
+    .name{
+        display: none;
+    }
+    .image-for-banner img{
+        width: fit-content;
+        position: relative;
+        display: none;
+    }
+    .qoutes{
+        position: relative;
+        bottom: 2%;
+        
+    }
+
     
 
 }
@@ -383,6 +400,9 @@ ul{
     #under2{
         display: none;
         overflow: hidden;
+    }
+    .about-us{
+        display: none;
     }
 }
 
