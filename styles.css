@@ -744,3 +744,35 @@ height: 100vh;
     text-align: center;
     padding: 40px 20px;
 }
+
+.main-image img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+
+
+}
+.middle{
+    transition: 0.5s ease;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    position: absolute;
+    float: right;
+    top: 50%;
+    right: 35%;
+    
+}
+.middle h2{
+}
+.city-block:hover img{
+    opacity: 0.3;
+    background-color: #000;
+}
+.city-block:hover .middle{
+    opacity: 1;
+}
+
+
